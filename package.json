@@ -1,0 +1,20 @@
+{
+    "name": "upenai-dark-theme",
+    "displayName": "UpenAI Dark Theme",
+    "description": "Dark theme optimized for tutorial videos, works across Cursor, VSCode, and Windsurf.",
+    "version": "0.0.1",
+    "publisher": "Upendra",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "UpenAI Dark Tutorial",
+          "uiTheme": "vs-dark",
+          "path": "./themes/upenai-dark-theme-color-theme.json"
+        }
+      ]
+    }
+  }
