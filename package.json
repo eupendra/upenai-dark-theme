@@ -1,20 +1,25 @@
 {
-    "name": "upenai-dark-theme",
-    "displayName": "UpenAI Dark Theme",
-    "description": "Dark theme optimized for tutorial videos, works across Cursor, VSCode, and Windsurf.",
-    "version": "0.0.1",
-    "publisher": "Upendra",
-    "engines": {
-      "vscode": "^1.50.0"
-    },
-    "categories": ["Themes"],
-    "contributes": {
-      "themes": [
-        {
-          "label": "UpenAI Dark Tutorial",
-          "uiTheme": "vs-dark",
-          "path": "./themes/upenai-dark-theme-color-theme.json"
-        }
-      ]
-    }
+  "name": "upenai-dark-theme",
+  "displayName": "UpenAI Theme",
+  "description": "Dark and Light themes optimized for tutorial videos, works across Cursor, VSCode, and Windsurf.",
+  "version": "0.1.0",
+  "publisher": "Upendra",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "UpenAI Dark Tutorial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/upenai-dark-theme-color-theme.json"
+      },
+      {
+        "label": "UpenAI Light Tutorial",
+        "uiTheme": "vs",
+        "path": "./themes/upenai-light-theme-color-theme.json"
+      }
+    ]
   }
+}

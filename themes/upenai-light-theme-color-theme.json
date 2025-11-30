@@ -1,0 +1,151 @@
+{
+  "name": "UpenAI Light Tutorial",
+  "type": "light",
+  "colors": {
+    "foreground": "#1E1E1E",
+    "focusBorder": "#E07020",
+    "selection.background": "#D0E0F5",
+    
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#1E1E1E",
+    "editor.lineHighlightBackground": "#F5F5F5",
+    "editorCursor.foreground": "#E07020",
+    "editor.selectionBackground": "#D0E0F5",
+    "editor.inactiveSelectionBackground": "#D0E0F5AA",
+    "editorLineNumber.foreground": "#999999",
+    "editorLineNumber.activeForeground": "#1E1E1E",
+    "editorWhitespace.foreground": "#DDDDDD",
+
+    "sideBar.background": "#F8F8F8",
+    "sideBar.foreground": "#1E1E1E",
+    "sideBar.border": "#E0E0E0",
+    "sideBarTitle.foreground": "#1E1E1E",
+    "sideBarSectionHeader.background": "#EFEFEF",
+    "sideBarSectionHeader.foreground": "#1E1E1E",
+
+    "activityBar.background": "#F0F0F0",
+    "activityBar.foreground": "#1E1E1E",
+    "activityBar.activeBorder": "#E07020",
+    "activityBar.inactiveForeground": "#6A6A6A",
+    "activityBarBadge.background": "#D64545",
+    "activityBarBadge.foreground": "#FFFFFF",
+
+    "tab.activeBackground": "#FFFFFF",
+    "tab.inactiveBackground": "#ECECEC",
+    "tab.activeForeground": "#1E1E1E",
+    "tab.inactiveForeground": "#6A6A6A",
+    "tab.border": "#E0E0E0",
+    "tab.activeBorderTop": "#E07020",
+
+    "titleBar.activeBackground": "#F8F8F8",
+    "titleBar.activeForeground": "#1E1E1E",
+    "titleBar.inactiveBackground": "#F8F8F888",
+    "titleBar.inactiveForeground": "#6A6A6A",
+    "titleBar.border": "#E0E0E0",
+
+    "statusBar.background": "#007ACC",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#68217A",
+    "statusBar.noFolderForeground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#D64545",
+    "statusBar.debuggingForeground": "#FFFFFF",
+
+    "panel.background": "#FFFFFF",
+    "panel.border": "#E0E0E0",
+    "panelTitle.activeBorder": "#E07020",
+    "panelTitle.activeForeground": "#1E1E1E",
+    "panelTitle.inactiveForeground": "#6A6A6A",
+
+    "terminal.foreground": "#1E1E1E",
+    "terminal.background": "#FFFFFF",
+
+    "input.background": "#FFFFFF",
+    "input.foreground": "#1E1E1E",
+    "input.border": "#CECECE",
+    "input.placeholderForeground": "#999999",
+
+    "dropdown.background": "#FFFFFF",
+    "dropdown.foreground": "#1E1E1E",
+    "dropdown.border": "#CECECE",
+
+    "list.activeSelectionBackground": "#E07020",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#E4E6F1",
+    "list.inactiveSelectionForeground": "#1E1E1E",
+    "list.hoverBackground": "#F3F3F3",
+    "list.hoverForeground": "#1E1E1E",
+
+    "button.background": "#E07020",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#C86018",
+
+    "breadcrumb.foreground": "#6A6A6A",
+    "breadcrumb.background": "#FFFFFF",
+    "breadcrumb.focusForeground": "#1E1E1E",
+    "breadcrumb.activeSelectionForeground": "#E07020",
+
+    "editorWidget.background": "#F8F8F8",
+    "editorWidget.border": "#CECECE",
+    "editorSuggestWidget.background": "#F8F8F8",
+    "editorSuggestWidget.foreground": "#1E1E1E",
+    "editorSuggestWidget.selectedBackground": "#E07020",
+    "editorSuggestWidget.selectedForeground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#8A8A8A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#D73A49",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#22863A"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#1E1E1E"
+      }
+    },
+    {
+      "scope": ["function", "entity.name.function"],
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#6A6A6A"
+      }
+    }
+  ]
+}
+
+
