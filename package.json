@@ -1,13 +1,17 @@
 {
-    "name": "upenai-dark-theme",
+  "name": "upenai-theme",
   "displayName": "UpenAI Theme",
-  "description": "Dark and Light themes optimized for tutorial videos, works across Cursor, VSCode, and Windsurf.",
-  "version": "0.0.3",
-    "publisher": "Upendra",
-    "engines": {
-      "vscode": "^1.50.0"
-    },
-    "categories": ["Themes"],
+  "description": "Dark and Light themes optimized for tutorial videos, works across Cursor, VSCode, and other VSCode-like editors forks.",
+  "version": "1.0.0",
+  "publisher": "Upendra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eupendra/upenai-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
     "contributes": {
       "themes": [
         {
